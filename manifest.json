@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "osrs-newtab",
+    "version": "0.1",
+    
+    "description": "An Oldschool RuneScape themed Newtab extension",
+    
+    "icons": {
+	"48": "icons/icon-48.png"
+    },
+    
+    "content_scripts": [
+	{
+	    "matches": ["*://*.sleibrock.xyz/*"],
+	    "js": ["src/osrs.js"]
+	}
+    ],
+
+    "permissions": [
+	"tabs",
+	"activeTab"
+    ],
+    
+    "web_accessible_resources": [
+	"assets/images/*.png"
+    ]
+}
+
