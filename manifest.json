@@ -16,10 +16,6 @@
 	}
     ],
 
-    "permissions": [
-	"topSites"
-    ],
-
     "chrome_url_overrides": {
 	"newtab": "osrs-newtab.html"
     },

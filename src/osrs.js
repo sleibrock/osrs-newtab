@@ -33,7 +33,6 @@ var listOfWallpaperPaths = [
 ];
 
 
-
 var randomWallpaper = function() {
     var rand_e = randomElement(listOfWallpaperPaths);
     var final_path = browser.runtime.getURL(rand_e);
@@ -42,10 +41,7 @@ var randomWallpaper = function() {
 }
 
 // this code will occur now when executed on load
-console.log("Hello!");
-console.log(listOfWallpaperPaths);
-console.log(randomElement(listOfWallpaperPaths));
-alert(randomWallpaper());
-document.body.style.backgroundImage = randomWallpaper(); 
+document.body.style.backgroundImage = randomWallpaper();
+document.body.style.backgroundSize = "cover";
 
-// end osrs_wallpaperify.js
+// end osrs.js
