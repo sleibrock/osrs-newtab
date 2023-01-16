@@ -17,9 +17,12 @@
     ],
 
     "permissions": [
-	"tabs",
-	"activeTab"
+	"topSites"
     ],
+
+    "chrome_url_overrides": {
+	"newtab": "osrs-newtab.html"
+    },
     
     "web_accessible_resources": [
 	"assets/images/*.png"

@@ -5,7 +5,7 @@
 var randomElement = function(arr) {
     var len = arr.length;
     var random = Math.random();
-    var index = len * random;
+    var index = Math.trunc(len * random);
     // shouldn't happen, but just in case it does, reset to 0
     if (index == len)
 	index = 0;
@@ -14,9 +14,9 @@ var randomElement = function(arr) {
 
 
 var listOfWallpaperPaths = [
-    "lumbridge.png",
-    "draynorvillage.png",
-    "draynormanor.png",
+    "assets/images/lumbridge.png",
+    "assets/images/draynorvillage.png",
+    "assets/images/draynormanor.png",
     //"assets/images/varrock.png",
     //"assets/images/falador.png",
     //"assets/images/camelot.png",
@@ -44,7 +44,7 @@ var randomWallpaper = function() {
 // this code will occur now when executed on load
 console.log("Hello!");
 console.log(listOfWallpaperPaths);
-console.log(Tab.url);
+console.log(randomElement(listOfWallpaperPaths));
 alert(randomWallpaper());
 document.body.style.backgroundImage = randomWallpaper(); 
 

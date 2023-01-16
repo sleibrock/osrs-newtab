@@ -1,7 +1,7 @@
 Oldschool RuneScape New Tab Wallpapers
 ---
 
-This is a plugin dedicated to customizing your Firefox New Tab with a randomly-selected high-quality [Oldschool Runescape] wallpaper.
+This is a plugin dedicated to offering you a new Oldschool Runescape themed newtab.
 
 The addon contains several scenic locations of iconic RuneScape locations, combined with the 117 HD RuneLite plugin. Images are captured using the freecam and recorded on a 1920x1080 resolution.
 
