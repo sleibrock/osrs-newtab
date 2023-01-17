@@ -6,7 +6,7 @@
     "description": "An Oldschool RuneScape themed Newtab extension",
     
     "icons": {
-	"48": "icons/icon-48.png"
+	"48": "assets/icons/icon-48.png"
     },
     
     "content_scripts": [
